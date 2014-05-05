@@ -1,30 +1,37 @@
 {
-  "name": "gulp-concat-sourcemap",
-  "version": "1.2.2",
-  "description": "Concatenate files and generate a source map file",
+  "name": "gulp-concat-sourcemap-bom",
+  "version": "1.0.0",
+  "description": "Concatenate files and generate a source map file. Remove BOM",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikach/gulp-concat-sourcemap.git"
+    "url": "git://github.com/cwmacdon/gulp-concat-sourcemap.git"
   },
   "keywords": [
     "gulpplugin",
     "gulp",
     "concat",
-    "sourcemap"
+    "sourcemap",
+    "bom"
   ],
   "author": {
     "name": "Michael",
     "email": "mikach27@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Chris",
+      "email": "cwmacdon@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikach/gulp-concat-sourcemap/issues"
+    "url": "https://github.com/cwmacdon/gulp-concat-sourcemap/issues"
   },
-  "homepage": "https://github.com/mikach/gulp-concat-sourcemap",
+  "homepage": "https://github.com/cwmacdon/gulp-concat-sourcemap",
   "dependencies": {
     "through": "^2.3.4",
     "gulp-util": "^2.2.14",
